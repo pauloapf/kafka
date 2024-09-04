@@ -248,7 +248,7 @@ docker exec -it kafka-3 opt/bitnami/kafka/bin/kafka-consumer-groups.sh --bootstr
 GROUP           TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                           HOST            CLIENT-ID
 meu-grupo       topic-a         1          5               5               0               console-consumer-2f1e86b0-ce05-44db-8e58-bbffff966b63 /172.20.0.2     console-consumer
 meu-grupo       topic-a         0          10              10              0               console-consumer-1a3c3859-fd83-4d0d-abe7-0522d0b41de3 /172.20.0.2     console-consumer
-pauloapf@c11-va0f3q1qbd6:~/kafka$
+
 ```
 
 Adicionando a opção members e verbose da para ver todos os conectados e em quais topicos e com quantas particoes
