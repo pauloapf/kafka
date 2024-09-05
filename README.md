@@ -329,3 +329,11 @@ D
 
 Acessar http://localhost:8080/
 
+
+# Docker
+
+```
+sudo service docker start
+sudo service docker status
+sudo service docker stop
+```
